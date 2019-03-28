@@ -6,8 +6,9 @@ for i in range(10):
     print(i)
 
 
+# 注释
 def test1():
-    pass
+    pass     # 代码后面的注释
 
 
 def test2():
@@ -15,7 +16,9 @@ def test2():
 
 
 def test3():
-    pass
+    a='abc'
+    b='''abc'''
+    d="""abc"""
 
 
 class Test:
