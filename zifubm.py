@@ -16,3 +16,10 @@ print("编码的转换".center(50, "*"))
 UTF-8 --> decode 解码 --> Unicode
 Unicode --> encode 编码 --> GBK / UTF-8 ..
 """
+"""
+常见编码错误的原因有：
+    Python解释器的默认编码
+    Python源文件文件编码
+    Terminal使用的编码
+    操作系统的语言设置
+"""
