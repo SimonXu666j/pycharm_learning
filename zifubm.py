@@ -10,3 +10,9 @@ UTF-32： 使用4个字节表示所有字符；
 '''
 print("https://www.cnblogs.com/alex3714/articles/7550940.html")
 print("UTF 是为unicode编码 设计 的一种 在存储 和传输时节省空间的编码方案。")
+print("编码的转换".center(50, "*"))
+
+"""
+UTF-8 --> decode 解码 --> Unicode
+Unicode --> encode 编码 --> GBK / UTF-8 ..
+"""
