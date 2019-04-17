@@ -63,12 +63,13 @@ s = bytearray(s)
 s[0] = 65
 print(s)
 import functools
-print(functools.reduce(lambda x, y: x + y, [1, 2, 3, 4],10))
-print(pow(2,4))
 
-a=[1,2,3,4,5]
-b=['a','b','c']
-print(list(zip(a,b)))
+print(functools.reduce(lambda x, y: x + y, [1, 2, 3, 4], 10))
+print(pow(2, 4))
 
-print(round(1.23423,2))
+a = [1, 2, 3, 4, 5]
+b = ['a', 'b', 'c']
+print(list(zip(a, b)))
+
+print(round(1.23423, 2))
 print(hash('abc'))
